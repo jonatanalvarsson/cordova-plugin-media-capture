@@ -267,6 +267,9 @@
         if ([pickerController respondsToSelector:@selector(cameraCaptureMode)]) {
             pickerController.cameraCaptureMode = UIImagePickerControllerCameraCaptureModeVideo;
             // pickerController.videoQuality = UIImagePickerControllerQualityTypeHigh;
+            /* --- start custom code by jonatanalvarsson -------------------- */
+            pickerController.videoQuality = UIImagePickerControllerQualityTypeHigh;
+            /* --- end custom code by jonatanalvarsson ---------------------- */
             // pickerController.cameraDevice = UIImagePickerControllerCameraDeviceRear;
             // pickerController.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
         }
